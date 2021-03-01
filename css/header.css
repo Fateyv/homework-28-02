@@ -1,0 +1,38 @@
+/* Start header */
+.header{
+    background-color: #FAFAFA;
+    padding: 36px 0;
+}
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+    font-family: Homemade Apple, sans-serif;
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2.17;
+}
+
+.header_list{
+    display: flex;
+}
+
+.header_link:hover{
+    text-decoration: underline;
+}
+
+.header_item{
+    margin-left: 32px;
+}
+
+.header_item:first-child {
+    margin-left: 0;
+}
+
+/* End header */

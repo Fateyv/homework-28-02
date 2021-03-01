@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: gilroy, sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.39;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.23;
+    margin-bottom: 36px;
+}
+
+
+.container {
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_little{
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    text-transform: uppercase;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    padding: 12px 24px;
+}
